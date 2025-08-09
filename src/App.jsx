@@ -43,7 +43,7 @@ const MainBanner = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Finding <div className='sm-break'/> Answers,
+            Smart <div className='sm-break'/> Mobility, 
           </motion.div>
           <motion.div 
             className='main-banner-title-top-2'
@@ -51,7 +51,7 @@ const MainBanner = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5}}
           >
-            Growing <div className='sm-break'/> Beyond
+            Built <div className='sm-break'/> on Teamwork
           </motion.div>
         </div>
         <motion.div 
@@ -60,7 +60,7 @@ const MainBanner = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1}}
         >
-          <div>더 나은 답을 찾고, <div className='sm-break'/> 더 크게 성장합니다. </div>
+          <div>똑똑한 프로젝트는 <div className='sm-break'/> 팀워크에서 나옵니다. </div>
         </motion.div>
       </div>
     </div>
@@ -86,8 +86,8 @@ const Section1 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            BEOMJIN은 새로운 기술과 문제에 뛰어드는 <br/>
-            도전정신으로 더 나은 해답을 찾고 성장합니다.
+            BEOMJIN은 팀원들을 챙기고 <br/>
+            지식 공유로 협업합니다.
           </motion.div>
         </div>
         <div className='section1-bot'>
@@ -99,11 +99,11 @@ const Section1 = () => {
           >
             <span className='img'/>
             <div>
-              <div>문제 해결 능력</div>
+              <div>협력과 소통</div>
               <div>
-                끊임없이 탐구하고 <br/>
-                마주치는 문제를 <br/>
-                해결합니다.
+                프로젝트의 안정성을 <br/>
+                높이는 협력과 소통을 <br/>
+                지향합니다.
               </div>
             </div>
           </motion.div>
@@ -173,7 +173,7 @@ const Section2 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              더 나은 답을 찾는 개발자 <br/>
+              협업을 통해 문제를 해결하는 <br/>
               <span>김범진</span>입니다.
             </motion.div>
           </div>
@@ -183,8 +183,8 @@ const Section2 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <div className='tag'> # 끊임없는 도전 </div>
-            <div className='tag'> # 매일매일 성장 </div>
+            <div className='tag'> # 협력과 소통 </div>
+            <div className='tag'> # 지식 공유 </div>
           </motion.div>
           <motion.div
             className='section2-content-bot'
@@ -192,17 +192,23 @@ const Section2 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            로봇을 연결하는 건 기술, <br/>
-            <b>팀을 연결하는 건 소통</b>입니다. <br/>
+            저는 <b>협력과 소통</b>을 핵심 가치로 <br/>
+            삼는 <u>자율주행 엔지니어</u>입니다.<br/>
             <br/>
-            <u>센서–제어–내비게이션</u>을 <br/>
-            한 흐름으로 잇는 로보틱스 엔지니어. <br/>
+            대학 시절 자율주행 동아리에서 <br/>
+            다양한 사람들과 함께 복잡한 미션을 <br/>
+            해결하며 <u>실전 경험</u>을 쌓았습니다.<br/>
             <br/>
-            <b>ROS2 · DDS</b>로 신뢰성과 지연을 설계하고, <br/>
-            서버에서 GUI까지 매끈하게 연결합니다. <br/>
+            지속적인 협력과 지식 공유로 <br/>
+            팀의 목표를 하나로 맞추었고, <br/>
+            그 결과 <u>AutoRace 2024 <br/>
+            협의회장상</u>을 수상했습니다.<br/>
             <br/>
-            빠르게 변하는 <b>LLM·비전 트렌드</b>를 <br/>
-            민첩하게 포착해 로봇에 즉시 반영합니다
+            이후 여러 프로젝트와 다양한 팀원들과의<br/>
+            <b>협업</b>을 통해 문제 해결 능력을 한층 강화했으며, <br/>
+            새로운 조직과 환경에서도 유연한 협력과 <br/>
+            원활한 소통으로 안정적이고 스마트한 <br/>
+            <b>자율주행 솔루션</b>을 구현하겠습니다.
           </motion.div>
         </div>
       </div>
@@ -220,8 +226,7 @@ const Section3 = () => {
             <div className='item'>
               <div>2025</div>
               <div>
-                숙명여자대학교 <br/> 
-                경제학부 학사 &  IT공학전공 졸업  <div className='sm-break'> </div> (학점 : 4.1 / 4.5)
+                대림대학교 미래자동차학부 
               </div>
             </div>
           </div>
@@ -244,10 +249,6 @@ const Section3 = () => {
             <div className='item'>
               <div>Dev</div>
               <div>DB / SQL</div>
-            </div>
-            <div className='item'>
-              <div>Dev</div>
-              <div>Vision / Deep Learning</div>
             </div>
             <div className='item'>
               <div>Communication</div>
@@ -275,14 +276,14 @@ const Section4 = () => {
               </div>
             </div>
             {/* 대외활동 */}
-            {/* <div className='item'>
+            <div className='item'>
               <div>
-                20.06 ~ 21.12
+                20.01 ~ 21.08
               </div>
               <div>
-                11사단 108기보 대대 병장 만기 전역
+                수도군단 본부근무대 행정과 회관병 병장 전역
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -399,7 +400,7 @@ const Section6 = () => {
           transition={{ duration: 1 }}
         >
           <div>Let’s Work Together</div>
-          <div>더 나은 답을 찾고,  <div className='sm-break'> </div>  더 크게 성장합니다.</div>
+          <div>똑똑한 프로젝트는  <div className='sm-break'> </div>  팀워크에서 나옵니다.</div>
         </motion.div>
         <motion.div 
           className='section6-link'
@@ -407,7 +408,7 @@ const Section6 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1}}
         >
-          <a rel="noopener noreferrer" href='https://open.kakao.com/o/syIzYmLh' target='_blank'>
+          <a rel="noopener noreferrer" href='https://open.kakao.com/o/sjE0mzLh' target='_blank'>
             <div className='button'>
               <div>WITH</div>
               <div className='logo'>
